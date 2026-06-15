@@ -1,10 +1,18 @@
 package criandoclasses;
 
-// @author Marcelo Neves
+import lombok.Getter;
+import lombok.Setter;
 
+// @author Marcelo Neves
+@Getter
+//@Setter
 public class Person {
 
-    public String name;
-    public int age;
+    private String name;
+    private int age;
 
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
