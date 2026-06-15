@@ -1,4 +1,4 @@
-// @author Marcelo Neves
+package Testing;// @author Marcelo Neves
 
 public class HelloTestGithub {
     static void main(String[] args) {
