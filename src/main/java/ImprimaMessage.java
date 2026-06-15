@@ -7,7 +7,7 @@ void main() {
     try (var scanner = new Scanner(System.in)) {
         System.out.print("Digite seu nome: ");
         var nome = scanner.nextLine();
-        System.out.print("Digite o seu ano de nascimento: ");
+        System.out.print("Digite o seu ano de nascimento teste : ");
         var ano = scanner.nextInt();
 
         System.out.printf("Olá %s, você tem %d anos.", nome, baseYear - ano);
